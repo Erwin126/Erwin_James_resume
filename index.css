@@ -1,0 +1,66 @@
+body{
+    background-color: bisque;
+    border-top:2px;
+    border-bottom: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+/*The body has a bisque background-color. It has a border on the top,bottom,left and right which is 2px. The padding on top,bottom,left and right is 1px.*/
+body.header{
+    background-color: lightseagreen;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    padding-left: 0.5px;
+    padding-right: 0.5px; 
+}
+/*The background-color is lightseagreen. It has border on the top,bottom,left and right which is 1px. The padding on the top,bottom,left and right is 0.5px.*/
+body.footer{
+    background-color: lightblue;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    padding-left: 0.5px;
+    padding-right: 0.5px; 
+} 
+/*The background-color is lightblue. It has a border of 1px around the top,bottom,left,right. It has a padding of 0.5px around the top,bottom,left and right.*/
+body.header.h1{
+   text-align: center;
+}
+/*The text has been centered.*/
+body.header.form{
+    align-content: center;
+    background-color:aquamarine;
+}
+/*The form has been centered. The background-color is aquamarine.*/
+body.h2{
+    text-align: center;
+}
+/*The h2 has been centered*/
+body.p{
+    text-align: center;
+}
+/*The footer h3 has been centered.*/
+body.footer.h3{
+   text-align: center;
+}
+/*The h3 footer has been centered*/
+body.footer.ol.li{
+    align-content: center;
+}
+/*The ol.li has been centered.*/
+/*Resources:
+https://stackoverflow.com/
+https://w3school.com/
+https://dropbox.com/
+https://www.freecodecamp.org/*/
